@@ -36,18 +36,18 @@ const styles = StyleSheet.create({
   },
   cardTitle: {
     fontWeight: 'bold',
-    fontColor: `${Colors.black}`,
+    color: Colors.black,
     fontSize: 20,
   },
   cardSubtitle: {
     marginTop: 4,
-    fontColor: `${Colors.neutral15}`,
+    color: Colors.neutral40,
     fontSize: 16,
   },
   line: {
     marginTop: 14,
     flex: 1,
     borderBottomWidth: 1,
-    borderBottomColor: `${Colors.neutral15}`,
+    borderBottomColor: Colors.neutral15,
   },
 });

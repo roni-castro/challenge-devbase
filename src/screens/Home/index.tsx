@@ -28,7 +28,7 @@ export const HomeScreen = () => {
         numColumns={3}
         keyExtractor={item => item}
         renderItem={({ item }) => (
-          <View style={{ padding: 4 }}>
+          <View style={styles.cardContainer}>
             <CardButton
               text={item}
               onPress={() => navigateToUserDetail(item)}
@@ -62,12 +62,15 @@ const styles = StyleSheet.create({
     marginTop: 20,
     marginBottom: 16,
     fontWeight: 'bold',
-    fontColor: `${Colors.black}`,
+    color: Colors.black,
     fontSize: 32,
   },
   subtitle: {
     marginBottom: 20,
-    fontColor: `${Colors.neutral80}`,
+    color: Colors.neutral80,
     fontSize: 24,
+  },
+  cardContainer: {
+    padding: 4,
   },
 });

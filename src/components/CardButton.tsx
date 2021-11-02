@@ -19,13 +19,13 @@ const styles = StyleSheet.create({
   container: {
     padding: 16,
     flexDirection: 'row',
-    backgroundColor: `${Colors.primary}`,
+    backgroundColor: Colors.primary,
     borderRadius: 12,
     alignContent: 'center',
   },
   text: {
     fontWeight: 'bold',
-    fontColor: `${Colors.white}`,
+    color: Colors.white,
     fontSize: 12,
   },
 });
